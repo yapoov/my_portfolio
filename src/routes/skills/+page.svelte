@@ -4,19 +4,19 @@
 <h1>TECHNICAL SKILLS</h1>
 <ul>
 	<li>
-		<img src="src/lib/images/unity.png" alt="unity logo" />
+		<img src="$lib/assets/unity.png" alt="unity logo" />
 		<p>Unity 3D</p>
 	</li>
 	<li>
-		<img src="src\lib\images\csharp.png" alt="csharp logo" />
+		<img src="$lib/assets/csharp.png" alt="csharp logo" />
 		<p>Unity 3D</p>
 	</li>
 	<li>
-		<img src="src\lib\images\csharp.png" alt="csharp logo" />
+		<img src="$lib/assets/csharp.png" alt="csharp logo" />
 		<p>ShaderLab</p>
 	</li>
 	<li>
-		<img src="src\lib\images\csharp.png" alt="csharp logo" />
+		<img src="$lib/assets/csharp.png" alt="csharp logo" />
 		<p>Blender</p>
 	</li>
 </ul>

@@ -8,8 +8,9 @@
 		<div class="project">
 			<a href="{base}/projects/{project.id}">
 				<video autoplay muted loop>
-					<source src="{base}/{project.videoUrl}" type="video/mp4" />
+					<source src="$lib/assets/spell_craft.mp4" type="video/mp4" />
 				</video>
+
 				<h1>{project.title}</h1>
 			</a>
 		</div>
