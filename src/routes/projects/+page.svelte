@@ -1,13 +1,14 @@
 <script>
 	import { projects } from './db';
+	import { assets, base } from '$app/paths';
 </script>
 
 <div class="project-container">
 	{#each projects as project}
 		<div class="project">
-			<a href="/projects/{project.id}">
+			<a href="{base}/projects/{project.id}">
 				<video autoplay muted loop>
-					<source src={project.videoUrl} type="video/mp4" />
+					<source src="{base}/{project.videoUrl}" type="video/mp4" />
 				</video>
 				<h1>{project.title}</h1>
 			</a>

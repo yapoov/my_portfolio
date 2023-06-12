@@ -1,9 +1,9 @@
 <script>
 	import { onMount } from 'svelte';
-	import Skills from './skills/Skills.svelte';
-	import Projects from './projects/Projects.svelte';
-	import About from './about/About.svelte';
-	import Contact from './contact/Contact.svelte';
+	import Skills from './skills/+page.svelte';
+	import Projects from './projects/+page.svelte';
+	import About from './about/+page.svelte';
+	import Contact from './contact/+page.svelte';
 	let activeSection = '';
 
 	const handleScroll = () => {
