@@ -13,9 +13,9 @@
 <h1>Contact Me</h1>
 <div class="contact">
 	<div class="info">
-		<p>Currently working and living in London, UK.</p>
-		<p>jackbromheaduk@gmail.com</p>
-		<p>Tel: +44 (0) 7757634528</p>
+		<p>Currently living in Sainshand, MN.</p>
+		<p>orgilo148@gmail.com</p>
+		<p>Tel: +976 99978694</p>
 	</div>
 
 	<form on:submit|preventDefault={handleSubmit}>
@@ -79,7 +79,7 @@
 	button {
 		padding: 10px 20px;
 		font-size: 16px;
-		background-color: var(--color-theme-2);
+		background-color: var(--color-theme-1);
 		color: white;
 		border: none;
 		border-radius: 4px;

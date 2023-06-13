@@ -6,28 +6,9 @@
 	import Contact from './contact/+page.svelte';
 	let activeSection = '';
 
-	const handleScroll = () => {
-		const sections = document.querySelectorAll('section');
-
-		let currentSection = '';
-
-		sections.forEach((section) => {
-			const rect = section.getBoundingClientRect();
-			if (rect.top <= 100) {
-				currentSection = section.id;
-			}
-		});
-
-		activeSection = currentSection;
-	};
-
-	onMount(() => {
-		window.addEventListener('scroll', handleScroll);
-
-		return () => {
-			window.removeEventListener('scroll', handleScroll);
-		};
-	});
+	function handleButtonClick() {
+		window.open('https://www.docdroid.net/t4u3eC0/resume-pdf', '_blank').focus();
+	}
 </script>
 
 <svelte:head>
@@ -37,7 +18,7 @@
 
 <div class="App">
 	<div>
-		<button class="myResume">My Resume</button>
+		<button on:click={handleButtonClick} class="myResume">My Resume</button>
 	</div>
 	<div class="home">
 		<span>Orgil Erdene</span>
@@ -51,15 +32,17 @@
 	<Skills />
 	<div class="colorstrip" />
 	<Contact />
+	<div>
+		<button on:click={handleButtonClick} class="myResume">My Resume</button>
+	</div>
 	<footer>2023 Orgil-Erdene</footer>
 </div>
 
 <style>
 	.colorstrip {
-		width: 80%;
+		width: 10vw;
 		height: 2px;
-		border-style: solid;
-		border-color: white;
+
 		background-color: var(--color-theme-1);
 	}
 	.App {

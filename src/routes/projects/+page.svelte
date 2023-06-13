@@ -4,17 +4,42 @@
 </script>
 
 <div class="project-container">
-	{#each projects as project}
-		<div class="project">
-			<a href="{base}/projects/{project.id}">
-				<video autoplay muted loop>
-					<source src="$lib/assets/spell_craft.mp4" type="video/mp4" />
-				</video>
+	<div class="project">
+		<a href="">
+			<video autoplay muted loop>
+				<source src="$lib/assets/spell_craft.mp4" type="video/mp4" />
+			</video>
 
-				<h1>{project.title}</h1>
-			</a>
-		</div>
-	{/each}
+			<h1>{projects[0].title}</h1>
+		</a>
+	</div>
+	<div class="project">
+		<a href="">
+			<video autoplay muted loop>
+				<source src="$lib/assets/endless_runner.mp4" type="video/mp4" />
+			</video>
+
+			<h1>{projects[1].title}</h1>
+		</a>
+	</div>
+	<div class="project">
+		<a href="">
+			<video autoplay muted loop>
+				<source src="$lib/assets/maze_td.mp4" type="video/mp4" />
+			</video>
+
+			<h1>{projects[2].title}</h1>
+		</a>
+	</div>
+	<div class="project">
+		<a href="">
+			<video autoplay muted loop>
+				<source src="$lib/assets/ship_builder.mp4" type="video/mp4" />
+			</video>
+
+			<h1>{projects[3].title}</h1>
+		</a>
+	</div>
 </div>
 
 <style>
