@@ -5,10 +5,7 @@
 
 <h1>ABOUT ME</h1>
 <div class="profile">
-	<img
-		src="http://images.unsplash.com/photo-1535713875002-d1d0cf377fde?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MXxzZWFyY2h8NHx8bWFsZSUyMHByb2ZpbGV8fDB8fHx8MTYyNTY2NzI4OQ&ixlib=rb-1.2.1&q=80&w=1080"
-		alt="profile"
-	/>
+	<img src="$lib/assets/profile.png" alt="profile" />
 </div>
 <div class="parent">
 	<!-- <div>

@@ -1,0 +1,11 @@
+import{S,i as T,s as j,e as l,a as I,t as q,o as C,c as r,f as t,g as b,b as h,d as B,q as c,z as P,j as p,h as d,n as w}from"./index.d20788c1.js";const V=""+new URL("../assets/profile.90029806.png",import.meta.url).href;function F(M){let i,_,m,y,u,n,s,E,f,o,v,g,x;return{c(){i=l("meta"),_=I(),m=l("h1"),y=q("ABOUT ME"),u=I(),n=l("div"),s=l("img"),f=I(),o=l("div"),v=l("div"),g=l("p"),x=q(`I am a passionate game developer with extensive experience in Unity 3D, specializing in mobile
+			gaming. I have worked at Black Candy, a hypercasual mobile game company, where I contributed
+			to the creation of captivating gaming experiences. From designing gameplay mechanics to
+			optimizing performance, I bring creativity and expertise to every project. With a strong
+			attention to detail and a collaborative mindset, I am eager to take on new challenges and
+			deliver exceptional games that engage players worldwide.`),this.h()},l(e){const a=C("svelte-1ds1qyu",document.head);i=r(a,"META",{name:!0,content:!0}),a.forEach(t),_=b(e),m=r(e,"H1",{});var k=h(m);y=B(k,"ABOUT ME"),k.forEach(t),u=b(e),n=r(e,"DIV",{class:!0});var A=h(n);s=r(A,"IMG",{src:!0,alt:!0,class:!0}),A.forEach(t),f=b(e),o=r(e,"DIV",{class:!0});var z=h(o);v=r(z,"DIV",{});var D=h(v);g=r(D,"P",{});var U=h(g);x=B(U,`I am a passionate game developer with extensive experience in Unity 3D, specializing in mobile
+			gaming. I have worked at Black Candy, a hypercasual mobile game company, where I contributed
+			to the creation of captivating gaming experiences. From designing gameplay mechanics to
+			optimizing performance, I bring creativity and expertise to every project. With a strong
+			attention to detail and a collaborative mindset, I am eager to take on new challenges and
+			deliver exceptional games that engage players worldwide.`),U.forEach(t),D.forEach(t),z.forEach(t),this.h()},h(){document.title="About",c(i,"name","description"),c(i,"content","About this app"),P(s.src,E=V)||c(s,"src",E),c(s,"alt","profile"),c(s,"class","svelte-1pukfmn"),c(n,"class","profile svelte-1pukfmn"),c(o,"class","parent svelte-1pukfmn")},m(e,a){p(document.head,i),d(e,_,a),d(e,m,a),p(m,y),d(e,u,a),d(e,n,a),p(n,s),d(e,f,a),d(e,o,a),p(o,v),p(v,g),p(g,x)},p:w,i:w,o:w,d(e){t(i),e&&t(_),e&&t(m),e&&t(u),e&&t(n),e&&t(f),e&&t(o)}}}class W extends S{constructor(i){super(),T(this,i,null,F,j,{})}}export{W as P};
